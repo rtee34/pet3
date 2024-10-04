@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформлення замовлення</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .order-form {
+            width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #b13f3f;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    list-style: none; /* Убираем маркеры списка */
+        }
+        .order-form h1 {
+            text-align: center;
+            color: #e2e2e2;
+            margin-bottom: 20px;
+            list-style: none;
+        }
+        .order-form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #ffffff;
+            list-style: none;
+        }
+        .order-form input, .order-form textarea {
+            width: calc(100% - 20px); /* Отступ справа */
+    padding: 2px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    list-style: none; 
+}
+        
+        ul {
+    list-style-type: none;
+}
+        .order-form button {
+            width: 100%;
+    padding: 15px;
+    background-color: #741616;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    list-style: none; /* Убираем маркеры списка */
+        }
+        .order-form button:hover {
+            background-color: #d30e0e;
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        .doc {
+            list-style: none;
+            position: absolute;
+            width: 306px;
+            height: 92px;
+            left: 226px;
+            top: 178px;
+            font-family: 'Amiri Quran';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 64px;
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.25px;
+            color: #E9D73A;
+        }
+        footer {  
+            margin-top: 14px;   list-style: none;
+        }  
+        .social-icons a {  
+            position: absolute;  
+            display: block;  
+            background-size: cover;  
+            list-style: none;
+        }  
+        .social-icons .instagram {  
+            width: 88px;  
+            height: 85px;  
+            left: 191px;  
+            top: 808px;  
+            background: url('https://i.ibb.co/VNf8MRS/image.png');  
+        }  
+        .social-icons .facebook {  
+            width: 92px;  
+            height: 80px;  
+            left: 342px;  
+            top: 813px;  
+            background: url('https://i.ibb.co/Y0cWRzx/png-transparent-computer-icons-facebook-logo-facebook-logo-fine-art-thumbnail-removebg-preview-2.png');  
+        }  
+        .social-icons .vk {  
+            width: 74px;  
+            height: 76px;  
+            left: 497px;  
+            top: 813px;  
+            background: url('https://i.ibb.co/j50ky7D/image.png');  
+        }  
+        .social-icons .youtube {  
+            width: 92px;  
+            height: 95px;  
+            left: 634px;  
+            top: 805px;  
+            background: url('https://i.ibb.co/QjnyGdR/2.png');  
+        }  
+        header {
+            position: relative;
+            padding: 20px 0;
+            list-style: none;
+        }
+        nav ul {
+            position: absolute;
+            top: 43px;
+            left: 400px;
+            list-style: none;
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 70px;
+            list-style: none;
+        }
+        nav ul li a {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 22px;
+            color: #64362C;
+            text-decoration: none;
+            list-style: none;
+        }
+        .konotop {
+            color: #E9D73A;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            list-style: none;
+        }
+        section {
+            background-color: #d30e0e;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(212, 32, 32, 0.1);
+            border-radius: 10px;
+            width: 100%;
+            max-width: 600px;
+            list-style: none;
+        }
+        .lapa {
+            position: absolute;
+            width: 83px;
+            height: 92px;
+            left: 160px;
+            top: 29px;
+            list-style: none;
+        }
+        .q
+        {
+position: absolute;
+width: 637px;
+height: 629px;
+left: 1500px;
+top: 112px;
+list-style: none;
+
+background: url(BY6_zWAAev-ymEYx2W9UQIlSmABR2x0FgQwno6nOn3XP18hI9DsgjFIyXmwZUc2J73H8RLz_-removebg-preview.png);
+
+        }
+        .C{
+            color: #d30e0e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#">ОСОБИСТИЙ КАБІНЕТ</a></li>
+            <li><a href="Лабораторна робота №4. Створення розширеної структури веб-сайту.html" class="pronas">ПРО НАС</a></li>
+            <li><a href="#">НОВИНИ ТА АКЦІЇ</a></li>
+            <li><a href="контакти.html"class = "C">КОНТАКТИ</a></li>
+            <li><a href="#">БЛОГ</a></li>
+            <li><a href="#" class="konotop">КОНОТОП</a></li>
+          </ul>
+        </nav>
+    </header>
+    <h1>ㅤ</h1>
+</header>
+<h1>ㅤ</h1>
+<section class="order-form">
+    <h1>Оформлення замовлення</h1>
+    <form action="#" method="POST">
+        <label for="name">ПІБ</label>
+        <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+        <label for="phone">Номер телефону</label>
+        <input type="tel" id="phone" name="phone" placeholder="+38 (097) 999 99 99" required>
+        <label for="date">Бажана дата та час</label>
+        <input type="datetime-local" id="date" name="date" required>
+        <label for="problem">Опис проблеми</label>
+        <textarea id="problem" name="problem" placeholder="Коротко опишіть проблему"></textarea>
+        <a href="перша.html" class="doc">&lt; НАЗАД</a>  
+        <img src="https://i.ibb.co/HGXzqY9/image.png" class="lapa" alt="лапа">
+        <button type="submit">Записатись</button>
+        <ul class="social-icons">  
+            <li><a href="#" class="instagram"></a></li>  
+            <li><a href="#" class="facebook"></a></li>  
+            <li><a href="#" class="vk"></a></li>  
+            <li><a href="#" class="youtube"></a></li>  
+        </ul>  
+      
+    </form>
+</section>
+</body>
+</html>
+        </form>
+    </section>
+</body>
+</html>
